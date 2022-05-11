@@ -1,0 +1,3007 @@
+.Clientcard_client-cards {
+    text-align: center;
+    width: 100%;
+    margin: 0 10px;
+}
+
+.Clientcard_client-images {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1025px) {
+    .Clientcard_client-cards {
+        display: none;
+    }
+    .Clientcard_client-images {
+        width: 100% !important;
+    }
+}
+
+.Clientslideshow_clients-cards {
+    display: flex;
+    padding: 0 3% 0 4%;
+}
+
+@media only screen and (max-width: 1025px) {
+    .Clientslideshow_clients-cards {
+        display: none;
+    }
+}
+
+.Clientcardmobile_mob-clients-cards {
+    margin: 0 15%;
+}
+
+.Clientcardmobile_client-image {
+    width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+    .Clientcardmobile_slideshow-container_mount {
+        max-width: 1000px;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .Clientcardmobile_mob-clients-cards,
+    .Clientcardmobile_slideshow-container_mount {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .Clientcardmobile_client-image {
+        width: 100% !important;
+    }
+}
+
+.ClientList_clients-container {
+    font-family: montserrat;
+    background-color: #000;
+    color: #fff0e8;
+    padding: 150px 0 100px;
+}
+
+.ClientList_clients-contents-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ClientList_clients-contents-p h5 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.ClientList_clients-contents-p p {
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff0e8;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.ClientList_clients-heading {
+    font-size: calc(32px + 1vw);
+    margin-bottom: 5px;
+}
+
+.ClientList_clientsSubHeading {
+    font-weight: 500;
+    text-align: center;
+}
+
+.ClientList_carouselArrow {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: auto;
+    border: 2px solid #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ClientList_slideshow-clientLogocontainer {
+    width: 84%;
+}
+
+.ClientList_client-card-Arrows-n7 {
+    width: 8%;
+    margin-top: 2vw;
+}
+
+.ClientList_slide-container6 {
+    margin: 50px 0;
+}
+
+@media only screen and (min-width: 1600px) {
+    .ClientList_clients-container {
+        margin: auto !important;
+    }
+    .ClientList_client-card-Arrows-n7 {
+        margin-top: 1vw !important;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .ClientList_client-card-Arrows-n7 {
+        display: none;
+    }
+}
+
+.WordfromClient_wordsFromClients {
+    width: 100%;
+    display: flex;
+    margin-bottom: 15%;
+    position: relative;
+}
+
+.WordfromClient_wordsFromClientImage {
+    width: 200%;
+    margin-left: -4%;
+    height: 800px;
+}
+
+.WordfromClient_wordsFromClientContent {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.WordfromClient_wordsFromClientHeading__2jwCY {
+    color: #a150d9;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 50px;
+}
+
+.WordfromClient_wordsFromClientSubHeading__2dd0M {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5f666f;
+    line-height: 33px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 420px;
+    padding-top: 10px;
+}
+
+.WordfromClient_avatar__2iKpe {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.WordfromClient_avatar1__3t5To {
+    width: 35px;
+    height: 35px;
+}
+
+.WordfromClient_avatar1__3t5To,
+.WordfromClient_avatar2__1t7gv {
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-right: 3vw;
+}
+
+.WordfromClient_avatar2__1t7gv {
+    width: 49px;
+    height: 49px;
+}
+
+.WordfromClient_secondAvatar__219W5 {
+    width: 13%;
+}
+
+.WordfromClient_secondAvatar1__SUOP- {
+    width: 30%;
+}
+
+.WordfromClient_fifthAvatar__1Lf_w {
+    width: 10%;
+}
+
+.WordfromClient_centerAvatar__tlLlE {
+    width: 18%;
+}
+
+.WordfromClient_centerAvatar1__1oGag {
+    width: 20%;
+}
+
+.WordfromClient_wordsFromClientscarouselArrow__2jFM2:focus {
+    background-color: transparent;
+}
+
+.WordfromClient_clientName__3CAq9 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.WordfromClient_clientRole__289VH {
+    color: #7b7c7e;
+}
+
+.WordfromClient_clientUrl__26lyr {
+    color: #a150d9;
+    text-decoration: none;
+}
+
+.WordfromClient_WFC-arrows-div__3bgQ6 {
+    margin: 50px auto auto;
+    display: flex;
+    width: 100px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.WordfromClient_WFC-arrows-div__3bgQ6 .WordfromClient_carouselArrow__1XFO1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: auto;
+    border: 2px solid #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.WordfromClient_WFC-arrows-div__3bgQ6
+    .WordfromClient_carouselArrow__1XFO1:hover {
+    background-color: #f4f4f4;
+}
+
+.WordfromClient_textstyle__Ue62n {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .WordfromClient_wordsFromClientscarouselArrow__2jFM2 {
+        display: flex;
+        width: 42%;
+        float: right;
+        cursor: pointer;
+        margin-top: 3vw;
+        margin-right: 9%;
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+    .WordfromClient_wordsFromClients {
+        display: inline;
+    }
+    .WordfromClient_wordsFromClientImage {
+        display: none;
+    }
+    .WordfromClient_wordsFromClientContent,
+    .WordfromClient_wordsFromClientMobileImage {
+        width: 100%;
+    }
+    .WordfromClient_wordsFromClientSubHeading__2dd0M {
+        min-height: 275px;
+    }
+}
+
+@media only screen and (min-width: 1190px) {
+    .WordfromClient_wordsFromClientMobileImage {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1025px) {
+    .WordfromClient_wordsFromClientHeading__2jwCY {
+        font-size: 20px;
+        font-weight: 500;
+        width: 59%;
+        padding-bottom: 4%;
+        margin: 4vw auto auto;
+    }
+    .WordfromClient_wordsFromClientSubHeading__2dd0M {
+        line-height: 24px;
+        font-size: 14.5px;
+        padding: 0 7% 0 8%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .WordfromClient_wordsFromClientHeading__2jwCY {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 0 8% 4%;
+        margin: 4vw auto auto;
+    }
+    .WordfromClient_wordsFromClientSubHeading__2dd0M {
+        line-height: 24px;
+        font-size: 12.5px;
+        margin: 0 8%;
+        width: 84%;
+    }
+}
+
+.ServiceCard_cardHeading__1wmDn {
+    text-align: left;
+    font-size: 30px;
+    font-family: montserrat;
+    font-weight: 700;
+}
+
+.ServiceCard_cardDesccontainer__3RUHB {
+    margin-top: 10px;
+}
+
+.ServiceCard_carddesc__34vI4 {
+    text-align: left;
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2.75;
+    width: 95%;
+}
+
+.ServiceCard_blueRightArrow__PxnZz {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+
+.ServiceCard_digitalTranformationCard__1_4Uo .ServiceCard_cardHeading__1wmDn {
+    color: #15444b;
+}
+
+.ServiceCard_ProductDevelopmentCard__3pr0f .ServiceCard_cardHeading__1wmDn {
+    color: #5e4b1c;
+}
+
+.ServiceCard_ExperienceDesignCard__3OMzI .ServiceCard_cardHeading__1wmDn {
+    color: #3d114d;
+}
+
+.ServiceCard_digitalTranformationCard__1_4Uo .ServiceCard_carddesc__34vI4 {
+    color: #436970;
+}
+
+.ServiceCard_ExperienceDesignCard__3OMzI .ServiceCard_carddesc__34vI4,
+.ServiceCard_ProductDevelopmentCard__3pr0f .ServiceCard_carddesc__34vI4 {
+    color: #410756;
+}
+
+.ServiceCard_AnalyticsCard__vN_vI,
+.ServiceCard_digitalTranformationCard__1_4Uo,
+.ServiceCard_ExperienceDesignCard__3OMzI,
+.ServiceCard_ProductDevelopmentCard__3pr0f,
+.ServiceCard_TechnologyInnovationCard__3FWQk {
+    position: relative;
+}
+
+.ServiceCard_DigitaltransImg__31LM2 {
+    width: 25%;
+    margin-top: -12%;
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+}
+
+.ServiceCard_digitaltransImgWeb__14SIJ {
+    width: 80%;
+}
+
+.ServiceCard_digitalTranformationContent__3UAvh :hover,
+.ServiceCard_DigitaltransImg__31LM2 :hover,
+.ServiceCard_digitaltransImgWeb__14SIJ :hover {
+    background-image: none;
+}
+
+.ServiceCard_techandInfoCardImg__1_Gu_ {
+    width: 100%;
+}
+
+.ServiceCard_ServiceTechImage__pbIan {
+    width: 40%;
+    position: absolute;
+    right: 20%;
+    bottom: 0;
+    z-index: 1;
+}
+
+.ServiceCard_TechnologyInnovationCard__3FWQk {
+    position: relative;
+}
+
+.ServiceCard_DigitaltransmobImg__2HPnT {
+    width: 25%;
+    margin-top: -12%;
+    position: absolute;
+    left: 10%;
+    bottom: 40px;
+}
+
+.ServiceCard_AnalyticsCard__vN_vI {
+    background-image: url(/_next/static/media/homepageAnalaticsImage1.f5598f186e0f2e35a654c5fdd8c72ac7.svg);
+    background-repeat: no-repeat;
+    background-size: 49% 51%;
+    background-position-y: 107%;
+    background-position-x: 107%;
+}
+
+.ServiceCard_AnalyticsCard__vN_vI :hover {
+    background-image: none;
+}
+
+.ServiceCard_TechnologyInnovationCard__3FWQk {
+    background-image: url(/_next/static/media/techandInfoCardImg.5ba9617c3ccd87b42b274e14eecf3938.svg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-y: 90%;
+    background-position-x: 90%;
+}
+
+.ServiceCard_blarrow__Xf4PK {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    display: none;
+}
+
+.ServiceCard_ProductcardContent__1Qjbc {
+    text-align: left;
+    color: #436970;
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2;
+    width: 95%;
+    padding: 0 20px 0 0;
+    z-index: 2;
+}
+
+.ServiceCard_ProductImgWeb1__dm9og {
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.ServiceCard_ProductImgWeb2__M2dlm {
+    width: 5%;
+    position: absolute;
+    top: 0;
+    right: 33%;
+}
+
+.ServiceCard_ProductImgWeb3__2k2oM {
+    width: 5%;
+    position: absolute;
+    top: 45px;
+    right: 6%;
+}
+
+.ServiceCard_cloudImgWeb__15JNG {
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ServiceCard_ProductDevelopmentCard__3pr0f .ServiceCard_cardContent__19fMa {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .ServiceCard_ProductDevelopmentCard__3pr0f .ServiceCard_cardContent__19fMa {
+        display: block;
+    }
+    .ServiceCard_ExperienceDesignCard__3OMzI {
+        width: 74%;
+        background-color: #c473e1;
+        padding: 30px 5px 20px 30px;
+        border-radius: 11px;
+        margin: auto;
+    }
+    .ServiceCard_numbertext__3D6UF {
+        margin-left: 0;
+    }
+    .ServiceCard_digitalTranformationCard__1_4Uo {
+        width: 74%;
+        background-color: #99dde8;
+        padding: 30px 5px 20px 30px;
+        border-radius: 11px;
+        margin: auto;
+    }
+    .ServiceCard_digitalContentAndImage__2lthS {
+        width: 100%;
+    }
+    .ServiceCard_digitalTranformationContent__3UAvh {
+        text-align: left;
+        color: #436970;
+        font-family: montserrat;
+        font-weight: 400;
+        line-height: 2;
+        height: 36vh;
+        width: 95%;
+        font-size: 15px;
+    }
+    .ServiceCard_ProductDevelopmentCard__3pr0f {
+        width: 74%;
+        background-color: #f9d376;
+        padding: 30px 1px 20px 30px;
+        border-radius: 11px;
+        margin: auto;
+    }
+    .ServiceCard_AnalyticsCard__vN_vI {
+        width: 74%;
+        background-color: #a278fd;
+        padding: 30px 5px 20px 30px;
+        border-radius: 11px;
+        margin: auto;
+        background-position-y: 111%;
+        background-position-x: 110%;
+    }
+    .ServiceCard_TechnologyInnovationCard__3FWQk {
+        width: 74%;
+        background-color: #98dae3;
+        padding: 30px 1px 20px 30px;
+        border-radius: 11px;
+        margin: auto;
+    }
+    .ServiceCard_AnalyticsCard__vN_vI,
+    .ServiceCard_digitalTranformationCard__1_4Uo,
+    .ServiceCard_ExperienceDesignCard__3OMzI,
+    .ServiceCard_ProductDevelopmentCard__3pr0f,
+    .ServiceCard_TechnologyInnovationCard__3FWQk {
+        height: 350px;
+    }
+    .ServiceCard_cardHeading__1wmDn {
+        font-size: 25px;
+    }
+    .ServiceCard_cardContent__19fMa {
+        font-size: 13px;
+        height: -webkit-max-content;
+        height: -moz-max-content;
+        height: max-content;
+        z-index: 2;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .ServiceCard_onHoverExperienceDesignCard__gluF4 {
+        width: 33%;
+    }
+    .ServiceCard_onHoverExperienceDesignCard__gluF4 :hover {
+        background-repeat: no-repeat;
+        background-position-x: 90%;
+        background-position-y: 90%;
+        cursor: pointer;
+    }
+    .ServiceCard_onHoverExperienceDesignCard__gluF4:hover
+        .ServiceCard_blarrow__Xf4PK {
+        display: block;
+    }
+    .ServiceCard_onHoverDigitalCard__3_BRB {
+        width: 33%;
+    }
+    .ServiceCard_onHoverDigitalCard__3_BRB :hover,
+    .ServiceCard_onHoverTechDesignCard__1XJfC :hover {
+        background-repeat: no-repeat;
+        background-position-x: 90%;
+        background-position-y: 90%;
+        cursor: pointer;
+    }
+    .ServiceCard_onHoverDesignCard__2ImNj :hover .ServiceCard_blarrow__Xf4PK,
+    .ServiceCard_onHoverDigitalCard__3_BRB:hover .ServiceCard_blarrow__Xf4PK {
+        display: block;
+    }
+    .ServiceCard_onHoverDesignCard__2ImNj {
+        width: 28.4%;
+    }
+    .ServiceCard_onHoverDesignCard__2ImNj
+        :hover
+        .ServiceCard_webblueRightArrow__8NW4x {
+        right: 20px !important;
+        display: inline-grid;
+        cursor: pointer !important;
+        margin-right: -16rem !important;
+        padding-bottom: -34rem;
+        margin-top: 5rem;
+    }
+    .ServiceCard_onHoverTechDesignCard__1XJfC {
+        width: 33%;
+        margin: 0 30px;
+    }
+    .ServiceCard_onHoverTechDesignCard__1XJfC
+        :hover
+        .ServiceCard_blarrow__Xf4PK {
+        display: block;
+    }
+    .ServiceCard_cardContent__19fMa:hover,
+    .ServiceCard_cardHeading__1wmDn:hover {
+        background-image: none;
+    }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1300px) {
+    .ServiceCard_TechnologyInnovationCard__3FWQk
+        .ServiceCard_AnalyticsCard__vN_vI.ServiceCard_ProductDevelopmentCard__3pr0f.ServiceCard_digitalTranformationCard__1_4Uo.ServiceCard_ExperienceDesignCard__3OMzI {
+        height: 56vh !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1025px) {
+    .ServiceCard_TechnologyInnovationCard__3FWQk
+        .ServiceCard_AnalyticsCard__vN_vI.ServiceCard_ProductDevelopmentCard__3pr0f.ServiceCard_digitalTranformationCard__1_4Uo.ServiceCard_ExperienceDesignCard__3OMzI {
+        height: 56vh !important;
+    }
+    .ServiceCard_ProductDevelopmentCard__3pr0f .ServiceCard_cardContent__19fMa {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .ServiceCard_ExperienceDesignCard__3OMzI {
+        width: 50%;
+        background-color: #c473e1;
+        border-radius: 11px;
+        margin: auto;
+        padding: calc(13px + 3vw);
+        height: 350px;
+    }
+    .ServiceCard_digitalTranformationCard__1_4Uo {
+        width: 50%;
+        background-color: #99dde8;
+        margin: auto;
+        padding: calc(13px + 3vw);
+        border-radius: 11px;
+        height: 350px;
+    }
+    .ServiceCard_digitalContentAndImage__2lthS {
+        width: 100%;
+    }
+    .ServiceCard_digitalCardImg__BY5bx {
+        width: 32%;
+        margin-top: -12%;
+    }
+    .ServiceCard_digitalTranformationContent__3UAvh {
+        text-align: left;
+        color: #436970;
+        font-family: montserrat;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 2;
+        height: 200px;
+        width: 95%;
+    }
+    .ServiceCard_ProductDevelopmentCard__3pr0f {
+        width: 50%;
+        background-color: #f9d376;
+        border-radius: 11px;
+        margin: auto;
+        padding: calc(13px + 3vw);
+        height: 350px;
+    }
+    .ServiceCard_AnalyticsCard__vN_vI {
+        background-color: #a278fd;
+        background-position-y: 106%;
+        background-position-x: 110%;
+    }
+    .ServiceCard_AnalyticsCard__vN_vI,
+    .ServiceCard_TechnologyInnovationCard__3FWQk {
+        width: 50%;
+        border-radius: 11px;
+        margin-left: 8%;
+        padding: calc(13px + 3vw);
+        height: 350px;
+    }
+    .ServiceCard_TechnologyInnovationCard__3FWQk {
+        background-color: #98dae3;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1025px) {
+    .ServiceCard_ExperienceDesignCard__3OMzI {
+        width: 50%;
+        background-color: #c473e1;
+        border-radius: 11px;
+        margin: auto;
+        padding: calc(13px + 3vw);
+        height: 360px;
+    }
+    .ServiceCard_digitalTranformationCard__1_4Uo {
+        width: 50%;
+        background-color: #99dde8;
+        border-radius: 11px;
+        margin: auto;
+        padding: calc(13px + 3vw);
+        height: 360px;
+    }
+    .ServiceCard_digitalContentAndImage__2lthS {
+        width: 100%;
+    }
+    .ServiceCard_digitalCardImg__BY5bx {
+        width: 27%;
+        margin-top: -15%;
+    }
+    .ServiceCard_digitalTranformationContent__3UAvh {
+        text-align: left;
+        color: #436970;
+        font-family: montserrat;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 2;
+        height: 200px;
+        width: 95%;
+    }
+    .ServiceCard_ProductDevelopmentCard__3pr0f {
+        width: 50%;
+        background-color: #f9d376;
+        border-radius: 11px;
+        margin: auto;
+        padding: calc(13px + 3vw);
+        height: 360px;
+    }
+    .ServiceCard_AnalyticsCard__vN_vI {
+        background-color: #a278fd;
+        background-position-y: 101%;
+        background-position-x: 115%;
+    }
+    .ServiceCard_AnalyticsCard__vN_vI,
+    .ServiceCard_TechnologyInnovationCard__3FWQk {
+        width: 50%;
+        border-radius: 11px;
+        margin-left: 6%;
+        padding: calc(13px + 3vw);
+        height: 360px;
+    }
+    .ServiceCard_TechnologyInnovationCard__3FWQk {
+        background-color: #98dae3;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .ServiceCard_ExperienceDesignCard__3OMzI {
+        height: 360px;
+        background-color: #c473e1;
+        padding: 30px 5px 20px 30px;
+        border-radius: 7px;
+    }
+    .ServiceCard_digitalTranformationCard__1_4Uo {
+        background-color: #99dde8;
+        padding: 30px 40px 20px;
+        border-radius: 7px;
+        height: 360px;
+    }
+    .ServiceCard_digitalContentAndImage__2lthS {
+        width: 100%;
+        display: flex;
+    }
+    .ServiceCard_digitalCardImg__BY5bx {
+        width: 30%;
+        margin-top: -12%;
+    }
+    .ServiceCard_digitalTranformationContent__3UAvh {
+        text-align: left;
+        color: #436970;
+        font-family: montserrat;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 2;
+        height: 270px;
+        width: 60%;
+    }
+    .ServiceCard_ProductDevelopmentCard__3pr0f {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        background-color: #f9d376;
+        padding: 30px 4px 20px 30px;
+        border-radius: 7px;
+        height: 360px;
+    }
+    .ServiceCard_AnalyticsCard__vN_vI {
+        height: 600px;
+        background-color: #a278fd;
+        padding: 30px 1px 20px 30px;
+        margin-left: 5.5%;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    .ServiceCard_TechnologyInnovationCard__3FWQk {
+        height: 600px;
+        background-color: #98dae3;
+        padding: 30px 0 20px 30px;
+        margin-left: 5.5%;
+        border-radius: 7px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1025px) {
+    .ServiceCard_techandInfoCardImg__1_Gu_ {
+        margin-top: 10% !important;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    .ServiceCard_techandInfoCardImg__1_Gu_ {
+        margin-top: 8% !important;
+    }
+}
+
+.ServicesSlideShow_servecarouselArrow__33HN_ {
+    display: flex;
+    width: 26%;
+    cursor: pointer;
+    margin-right: 4%;
+}
+
+.ServicesSlideShow_servecarouselArrow__33HN_:focus {
+    background-color: transparent;
+}
+
+.ServicesSlideShow_carouselArrow__3su0o {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: auto;
+    border: 2px solid #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .ServicesSlideShow_slideshow-container-home__3bgmY {
+        max-width: 1000px;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .ServicesSlideShow_slideshow-container-home__3bgmY {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+    .ServicesSlideShow_servecarouselArrow__33HN_ {
+        margin-top: 42vw !important;
+        margin-right: 23% !important;
+        width: 19% !important;
+        float: right !important;
+        cursor: pointer !important;
+        display: flex !important;
+    }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1025px) {
+    .ServicesSlideShow_servecarouselArrow__33HN_ {
+        margin-top: 30px;
+        margin-right: 23% !important;
+        width: 17% !important;
+        float: right !important;
+        cursor: pointer !important;
+        display: flex !important;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .ServicesSlideShow_carouselArrows__6gOgU {
+        margin-top: -4px;
+    }
+    .ServicesSlideShow_servecarouselArrow__33HN_ {
+        width: 43%;
+        margin-top: 45px;
+        float: right;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+.Services_servesHeading__3qG9r {
+    font-size: calc(22px + 3vw);
+    font-weight: 600;
+    font-family: poppins;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.Services_servesHeading__3qG9r h1 {
+    font-size: calc(22px + 1.6vw);
+    line-height: 1.2;
+    padding: 0 0 40px;
+    background: transparent;
+    color: #313543;
+}
+
+.Services_loveColor__2mGT4 {
+    color: #c473e1;
+}
+
+.Services_serveEmptySpace__38W6K {
+    width: 7.5%;
+}
+
+.Services_small-heading__2jwo- {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: -20px;
+}
+
+@media only screen and (max-width: 300px) {
+    .Services_serveArticle__80XJ- {
+        padding-top: 55%;
+        background-color: #eee;
+        padding-bottom: 13vh;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 450px) {
+    .Services_serveArticle__80XJ- {
+        padding-top: 42%;
+        background-color: #eee;
+        padding-bottom: 13vh;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 750px) {
+    .Services_serveArticle__80XJ- {
+        padding-top: 29%;
+        background-color: #eee;
+        padding-bottom: 13vh;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+    .Services_serveArticle__80XJ- {
+        padding-top: 17%;
+        background-color: #eee;
+        padding-bottom: 40vh;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1025px) {
+    .Services_serveArticle__80XJ- {
+        padding-top: 15%;
+        background-color: #eee;
+        padding-bottom: 13vh;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+    .Services_serveArticle__80XJ- {
+        padding-top: 19%;
+        background-color: #eee;
+        padding-bottom: 13vh;
+    }
+    .Services_serveCards__3YbKc {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        padding: 0 4% 0 6%;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .Services_serveArticle__80XJ- {
+        margin: auto;
+        max-width: 1600px;
+        background-color: #eee;
+    }
+    .Services_serveCards__3YbKc {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        padding: 0 6.5% 0 9.5%;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 2000px) {
+    .Services_serveArticle__80XJ- {
+        padding-top: 12%;
+        background-color: #eee;
+        padding-bottom: 13vh;
+    }
+    .Services_serveCards__3YbKc {
+        padding: 0 6.5% 0 9.5%;
+    }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 3000px) {
+    .Services_serveArticle__80XJ- {
+        padding-top: 9%;
+        background-color: #eee;
+        padding-bottom: 13vh;
+    }
+    .Services_serveCards__3YbKc {
+        padding: 0 6.5% 0 9.5%;
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    .Services_serveArticle__80XJ- {
+        padding-top: 9%;
+        background-color: #eee;
+        padding-bottom: 13vh;
+    }
+    .Services_serveCards__3YbKc {
+        padding: 0 6.5% 0 9.5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Services_servesHeading__3qG9r {
+        width: 100vw;
+        padding: 0 20px;
+    }
+    .Services_serveCards__3YbKc {
+        display: none;
+    }
+    .Services_servesHeading__3qG9r h1 {
+        width: 100%;
+        font-size: calc(12px + 1.6vw);
+    }
+    .Services_small-heading__2jwo- {
+        margin-bottom: -9px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1025px) {
+    .Services_servesHeading__3qG9r {
+        width: 100vw;
+        padding: 0 20px;
+    }
+    .Services_serveCards__3YbKc {
+        display: none;
+    }
+    .Services_servesHeading__3qG9r h1 {
+        width: 100%;
+        font-size: calc(18px + 1.6vw);
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .Services_serveCards__3YbKc {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1025px) {
+    .Services_serveCards__3YbKc {
+        display: none;
+    }
+    .Services_serveEmptySpace__38W6K {
+        width: 6%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .Services_serv-head-mobile__1vUK4 {
+        display: none;
+    }
+    .Services_serv-head-desktop__1omlt {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Services_serv-head-desktop__1omlt {
+        display: none;
+    }
+    .Services_serv-head-mobile__1vUK4 {
+        display: block;
+    }
+}
+
+.mainhomecontainer {
+    background-color: #faf5f0;
+}
+
+.mainfrstPagecontentWidth {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+}
+@keyframes ContentSlider_headanim {
+    0% {
+     opacity:0;
+     transform:translateY(-30px);
+     display:none
+    }
+    2% {
+     opacity:0;
+     transform:translateY(-30px)
+    }
+    10% {
+     opacity:1;
+     transform:translateY(0)
+    }
+    90% {
+     opacity:1;
+     transform:translateY(0)
+    }
+    98% {
+     opacity:0
+    }
+    to {
+     opacity:0;
+     transform:translateY(30px);
+     display:none
+    }
+}
+
+.contentDiv { 
+    position: relative;
+    /* padding: 150px 145px; */
+    padding-top: 0;
+    padding-bottom: 222px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.mainhomeinnovationContent {
+    position: relative;
+    color: #1e232d;
+    font-size: calc(70px + 1vw);
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    padding-top: calc(13px + 1vw);
+    line-height: 1.2;
+    margin: auto;
+}
+
+.mainhomeinnovationSubContent {
+    font-size: 16px;
+    font-family: montserrat, sans-serif;
+    color: #1e232d;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 1px;
+    width: 70%;
+    margin: auto;
+    line-height: 2;
+}
+
+.ContentSlider_mainmultipleImage {
+    width: 100%;
+    transform: translateY(4px);
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+    .mainfrstPagecontentWidth {
+        height: 95vh;
+    }
+    .mainhomeinnovationContent {
+        font-size: 32px;
+    }
+    .ContentSlider_mainhomeinnovationSubContent__296qR {
+        width: 67%;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .mainfrstPagecontentWidth {
+        height: 86vh;
+    }
+    .mainhomeinnovationContent {
+        font-size: calc(28px + 0vw);
+    }
+    .ContentSlider_mainhomeinnovationSubContent__296qR {
+        width: 75%;
+        line-height: 21px;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .mainfrstPagecontentWidth {
+        height: 80vh;
+    }
+    .mainhomeinnovationContent {
+        font-size: calc(28px + 0vw);
+    }
+    .ContentSlider_mainhomeinnovationSubContent__296qR {
+        width: 75%;
+        line-height: 21px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ContentSlider_maininnovationImages {
+        display: none;
+    }
+    .ContentSlider_mainGroupImages {
+        overflow: hidden;
+        width: 100%;
+    }
+    .ContentSlider_mainmobilemultipleImage {
+        width: 100%;
+        transform: translateY(6px);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .ContentSlider_mainGroupImages {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .mainhomecontainer {
+        padding-top: 6rem !important;
+    }
+}
+
+@-webkit-keyframes ContentSlider_headanim__2s-_i {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+        display: none;
+    }
+    2% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    10% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    90% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    98% {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+        transform: translateY(30px);
+        display: none;
+    }
+}
+
+@keyframes ContentSlider_headanim__2s-_i {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+        display: none;
+    }
+    2% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    10% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    90% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    98% {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+        transform: translateY(30px);
+        display: none;
+    }
+    
+}
+
+.Whatwedo_wwdContainer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1e232d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Whatwedo_innerWwdContainer {
+    width: 500px;
+    height: auto;
+}
+
+.Whatwedo_yellowCardBgLogo__3IdEm {
+    max-width: 100%;
+}
+
+.Whatwedo_whatWeDo {
+    font-size: 22px;
+    color: #99dde8;
+    font-weight: 400;
+}
+
+.Whatwedo_innerWwdContainer p {
+    color: #faf5f0;
+    font-size: 28px;
+    margin-top: 16px;
+    line-height: 1.5;
+    width: 600px;
+    font-weight: 500;
+}
+
+.Whatwedo_fibonacciContents__3_MS7 {
+    color: #4d3f0a;
+}
+
+.Whatwedo_inspired-head__1jZPk {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .Whatwedo_innerWwdContainer {
+        width: 70%;
+        height: auto;
+        padding: 50px 0;
+    }
+    .Whatwedo_innerWwdContainer p {
+        color: #faf5f0;
+        font-size: 22px;
+        margin-top: 16px;
+        line-height: 35px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Whatwedo_innerWwdContainer p {
+        font-size: 18px;
+    }
+}
+
+.Whatwedo_yellowCard__30VCJ {
+    background-image: url(/_next/static/media/homepageImage1.a35dbfaae313dc03378a55388e30f8e6.svg),
+        linear-gradient(
+            to bottom right,
+            #ffd42d,
+            #ffd42d 50%,
+            #ffd948 0,
+            #ffd948
+        ) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 30%;
+    background-size: contain;
+}
+
+.Whatwedo_WWDLink__2y5oZ {
+    text-decoration: none;
+}
+
+.Whatwedo_rightArrow__pb8_7 {
+    max-width: 17px;
+}
+
+.Whatwedo_fibanocciQutoes__3fabn {
+    font-weight: 300;
+    font-family: montserrat;
+    font-size: 14px;
+    width: 34%;
+    text-align: left;
+    margin-left: 44%;
+    padding-top: 10%;
+    color: #463500;
+}
+
+.Whatwedo_fibanocciQutoe1__aTs-s {
+    font-size: 16px;
+    text-align: right;
+}
+
+.Whatwedo_FibanocciAuthor__ZQ3Hc {
+    font-weight: 500;
+    font-family: montserrat;
+    font-size: 14px;
+    text-align: right;
+    color: #463500;
+    padding-top: 10px;
+}
+
+.Whatwedo_rightArrow__pb8_7 {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+}
+
+.Whatwedo_rightarrowdiv__3Rn50 {
+    width: 50px;
+    height: 50px;
+}
+
+.Whatwedo_ourWorksWebrightArrowWe__M_uLj {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+.Whatwedo_yellowcard-arrow__Y5cGC {
+    width: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Whatwedo_rightArrow__pb8_7 {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+    }
+    .Whatwedo_FibonacciQuotes__2QO5k {
+        width: 100%;
+        text-align: right;
+        margin: auto;
+        font-size: 12px;
+        font-family: montserrat;
+        font-weight: 300;
+    }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1300px) {
+    .Whatwedo_FibanocciAuthor__ZQ3Hc {
+        font-size: 18px;
+        text-align: right;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .Whatwedo_FibanocciAuthor__ZQ3Hc {
+        font-size: 18px;
+        text-align: right;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .Whatwedo_yellowCard__30VCJ {
+        height: 201px;
+        margin-left: 0;
+        position: unset;
+        z-index: 0;
+    }
+    .Whatwedo_fibanocciGroupImg__1s_2j {
+        margin-left: -50px;
+        margin-top: -97px;
+        height: 245%;
+        width: 21.1%;
+    }
+    .Whatwedo_fibonacciContents__3_MS7 {
+        display: flex;
+        width: 100%;
+        margin-top: -27rem;
+    }
+}
+
+@media only screen and (min-width: 1170px) and (max-width: 1500px) {
+    .Whatwedo_yellowCard__30VCJ {
+        height: 227px;
+    }
+    .Whatwedo_fibanocciGroupImg__1s_2j {
+        margin-left: -50px;
+        margin-top: -104px;
+        width: 22.5rem;
+    }
+    .Whatwedo_fibanocciQutoes__3fabn {
+        margin-left: 28% !important;
+    }
+    .Whatwedo_fibonacciContents__3_MS7 {
+        display: flex;
+        margin-top: -30rem;
+    }
+    .Whatwedo_firstCardHeading__1YvTQ {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1170px) {
+    .Whatwedo_yellowCard__30VCJ {
+        height: 258px;
+    }
+    .Whatwedo_fibanocciGroupImg__1s_2j {
+        margin-left: -42px;
+        margin-top: -116px;
+        height: 225%;
+        width: 25.4rem;
+    }
+    .Whatwedo_fibanocciQutoes__3fabn {
+        margin-left: 28% !important;
+        padding-top: 3% !important;
+    }
+    .Whatwedo_fibonacciContents__3_MS7 {
+        display: flex;
+        margin-top: -35rem;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1030px) {
+    .Whatwedo_yellowCard__30VCJ {
+        height: 190px;
+        background-position-x: 30%;
+        z-index: 0;
+        position: unset;
+    }
+    .Whatwedo_mobieFibanocciGroupImg__2eDWp {
+        margin-left: -132px;
+        margin-top: -69px;
+    }
+    .Whatwedo_fibonacciContents__3_MS7 {
+        display: flex;
+        margin-top: -20rem;
+    }
+    .Whatwedo_fibanocciQutoes__3fabn {
+        font-size: 14px;
+        margin-left: 16% !important;
+        padding-top: 5% !important;
+        text-align: left;
+        width: 50% !important;
+    }
+    .Whatwedo_InspiredFibonacci__kHIm3 {
+        margin-left: 0 !important;
+        padding-top: 5% !important;
+        text-align: end;
+        width: 50%;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 22px;
+        margin-right: 8%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Whatwedo_yellowCard__30VCJ {
+        height: 184px;
+        margin-left: 4%;
+        background-position-x: 48%;
+        z-index: 0;
+        position: unset;
+    }
+    .Whatwedo_mobieFibanocciGroupImg__2eDWp {
+        margin-left: -156px;
+        margin-top: -74px;
+    }
+    .Whatwedo_fibonacciContents__3_MS7 {
+        margin-top: -63%;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .Whatwedo_fibanocciGroupImg__1s_2j {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1030px) {
+    .Whatwedo_mobieFibanocciGroupImg__2eDWp {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1025px) {
+    .Whatwedo_fibanocciQutoes__3fabn {
+        font-size: 14px;
+        margin-left: 18% !important;
+        padding-top: 3%;
+        text-align: left;
+        width: 73%;
+    }
+    .Whatwedo_InspiredFibonacci__kHIm3 {
+        margin-left: 42%;
+        padding-top: 3%;
+        text-align: end;
+        width: 50%;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .Whatwedo_AboutFibonalabs__ipV3X {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Whatwedo_fibanocciQutoes__3fabn {
+        font-weight: 300;
+        font-family: montserrat;
+        font-size: 14px;
+        width: 73%;
+        text-align: left;
+        margin-left: 17%;
+        padding-top: 5%;
+        color: #463500;
+    }
+    .Whatwedo_AboutFibonalabs__ipV3X {
+        display: none;
+    }
+    .Whatwedo_FibanocciAuthor__ZQ3Hc {
+        font-size: 12px;
+    }
+    .Whatwedo_InspiredFibonacci__kHIm3 {
+        margin-left: 28%;
+        padding-top: 6%;
+        text-align: end;
+        width: 62%;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1025px) {
+    .Whatwedo_rightArrow__pb8_7 {
+        padding: 4px !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Whatwedo_yellowCard__30VCJ {
+        background-image: url(/_next/static/media/homepageImage1.a35dbfaae313dc03378a55388e30f8e6.svg) !important;
+        background-size: contain;
+    }
+    .Whatwedo_yellowCardBgLogo__3IdEm {
+        background: linear-gradient(
+            to bottom left,
+            #ffd42d,
+            #ffd42d 50%,
+            #ffd948 0,
+            #ffd948
+        ) !important;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .Whatwedo_yellowCard__30VCJ {
+        background-size: 95% !important;
+    }
+    .Whatwedo_yellowCardBgLogo__3IdEm {
+        background: linear-gradient(
+            to bottom left,
+            #ffd42d,
+            #ffd42d 50%,
+            #ffd948 0,
+            #ffd948
+        ) !important;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .Whatwedo_GroupImages__26eZI {
+        display: none;
+    }
+    .Whatwedo_fibanocciQutoes__3fabn {
+        font-size: 18px;
+        margin-left: 17%;
+        padding-top: 4%;
+        text-align: left;
+        width: 40%;
+    }
+    .Whatwedo_InspiredFibonacci__kHIm3 {
+        font-family: Poppins;
+        font-weight: 600;
+        float: right;
+        font-size: 30px;
+        text-align: right;
+        width: 40%;
+        margin-right: 4%;
+        padding-right: calc(13px + 3vw);
+    }
+    .Whatwedo_AboutFibonalabs__ipV3X {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 2000px) {
+    .Whatwedo_yellowCard__30VCJ {
+        height: 201px;
+        margin-left: 0 !important;
+    }
+    .Whatwedo_fibanocciGroupImg__1s_2j {
+        margin-left: -11px !important;
+        margin-top: -91px !important;
+        width: 20rem;
+    }
+    .Whatwedo_fibanocciQutoes__3fabn {
+        padding-top: 0.5%;
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    .Whatwedo_yellowCard__30VCJ {
+        height: 417px !important;
+        margin-left: 0 !important;
+    }
+    .Whatwedo_fibonacciContents__3_MS7 {
+        display: flex;
+        width: 100%;
+        margin-top: -50rem;
+    }
+    .Whatwedo_fibanocciGroupImg__1s_2j {
+        margin-left: -2px !important;
+        margin-top: -186px !important;
+        height: 248% !important;
+    }
+    .Whatwedo_fibanocciQutoes__3fabn {
+        padding-top: 0.5%;
+    }
+}
+
+@media only screen and (min-width: 2500px) and (max-width: 3000px) {
+    .Whatwedo_yellowCard__30VCJ {
+        height: 253px !important;
+        margin-left: 0 !important;
+    }
+    .Whatwedo_fibanocciGroupImg__1s_2j {
+        margin-left: -2px !important;
+        margin-top: -115px !important;
+        width: 25rem;
+    }
+    .Whatwedo_fibonacciContents__3_MS7 {
+        display: flex;
+        width: 100%;
+        margin-top: -32rem;
+    }
+    .Whatwedo_fibanocciQutoes__3fabn {
+        padding-top: 0.5%;
+    }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2500px) {
+    .Whatwedo_yellowCard__30VCJ {
+        height: 254px !important;
+        margin-left: 0 !important;
+    }
+    .Whatwedo_fibanocciGroupImg__1s_2j {
+        margin-left: -2px !important;
+        margin-top: -114px !important;
+        width: 25rem;
+    }
+    .Whatwedo_fibonacciContents__3_MS7 {
+        display: flex;
+        width: 100%;
+        margin-top: -32rem;
+    }
+    .Whatwedo_fibanocciQutoes__3fabn {
+        padding-top: 0.5%;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 700px) {
+    .Whatwedo_fibonacciContents__3_MS7 {
+        margin-top: -49%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .Whatwedo_fibonacciContents__3_MS7 {
+        margin-top: -20rem;
+    }
+}
+
+.LifeAtFibonalabs_lifeAtFibonalbscarouselArrow__7zKEs
+    .LifeAtFibonalabs_carouselArrow__2yxia {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: auto;
+    border: 2px solid #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.LifeAtFibonalabs_lifeAtFibonalbscarouselArrow__7zKEs
+    .LifeAtFibonalabs_carouselArrow__2yxia:hover {
+    background-color: #f4f4f4;
+}
+
+.LifeAtFibonalabs_lifeAtFibonalbscarouselArrow-desktop__2mRLs
+    .LifeAtFibonalabs_carouselArrow__2yxia {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: auto;
+    border: 2px solid #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.LifeAtFibonalabs_CaseStudy__1uGW2 {
+    font-size: calc(22px + 2.5vw);
+    font-family: poppins;
+    font-weight: 700;
+    padding-bottom: 2.5vw;
+}
+
+.LifeAtFibonalabs_CaseStudySubHeading__19IWS {
+    color: #313543;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: calc(4px + 1vw);
+}
+
+.LifeAtFibonalabs_lifeAtFibonalabs__2kVw4 {
+    margin: 10% 0 10% 6%;
+}
+
+.LifeAtFibonalabs_fibonalabsColor__3S3cB {
+    color: #f37298;
+}
+
+.LifeAtFibonalabs_lifeAtFibonalabsGroupImages__2747f {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.LifeAtFibonalabs_LifeImage__1hN7c {
+    flex-shrink: 0;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+.LifeAtFibonalabs_lifeAtFibonalabsImage1__2vl6o {
+    padding-right: 1%;
+    height: 43vh;
+    position: relative;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 11px;
+    z-index: -1;
+}
+
+.LifeAtFibonalabs_lifeAtFibonalabsImage2Contents__3AJxF {
+    position: absolute;
+    color: #fff;
+    left: 1.5vw;
+    font-size: 18px;
+    bottom: 4vw;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.LifeAtFibonalabs_lifeAtFibonalabsImage2__nBvtN {
+    padding-right: 1%;
+    height: 43vh;
+    border-radius: 11px;
+}
+
+.LifeAtFibonalabs_lifeAtFibonalabsImage3__HhfMx {
+    height: 43vh;
+    border-radius: 11px;
+}
+
+.LifeAtFibonalabs_lifeAtFibonalabsHeading__UeWrj {
+    margin: 0 !important;
+}
+
+.LifeAtFibonalabs_lifeAtFibonalbscarouselArrow__7zKEs:focus {
+    background-color: transparent;
+}
+
+.LifeAtFibonalabs_lifeAtFibonalbscarouselArrow__7zKEs {
+    margin-bottom: 3rem;
+}
+
+.LifeAtFibonalabs_lifeAtFibonalbscarouselArrow-desktop__2mRLs {
+    display: flex;
+    width: 100px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    margin-left: 87%;
+    margin-top: -5%;
+    margin-bottom: 10%;
+}
+
+.LifeAtFibonalabs_lifeAtFibonalbscarouselArrow-desktop__2mRLs
+    .LifeAtFibonalabs_carouselArrow__2yxia:hover {
+    background-color: #f4f4f4;
+}
+
+@media only screen and (max-width: 600px) {
+    .LifeAtFibonalabs_slideshow-container__1JR45 {
+        max-width: 1000px;
+        margin: auto;
+    }
+    .LifeAtFibonalabs_slideshow-containers__1KG3i {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalabs__2kVw4 {
+        margin-top: 25vw;
+        margin-left: 12%;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalabsGroupImages__2747f {
+        display: none;
+    }
+    .LifeAtFibonalabs_mobImg1LifeAtfibonalabs__oQR69 {
+        width: 100%;
+        padding: 0;
+        height: 35vh;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalabsImage1__2vl6o {
+        margin-right: 8%;
+        width: 91%;
+        height: 35vh;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border-radius: 11px;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalbscarouselArrow__7zKEs {
+        display: flex;
+        width: 42%;
+        float: right;
+        cursor: pointer;
+        margin-top: 3vw;
+        margin-right: 9%;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalabsImage2Contents__3AJxF {
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1025px) {
+    .LifeAtFibonalabs_slideshow-containers__1KG3i {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .LifeAtFibonalabs_lifeAtFibonalabsImage1__2vl6o {
+        height: 27vh !important;
+    }
+    .LifeAtFibonalabs_mobImg1LifeAtfibonalabs__oQR69 {
+        height: 22vh !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+    .LifeAtFibonalabs_lifeAtFibonalabs__2kVw4 {
+        margin-top: 25vw;
+        margin-left: 12%;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalabsGroupImages__2747f {
+        display: none;
+    }
+    .LifeAtFibonalabs_mobImg1LifeAtfibonalabs__oQR69 {
+        width: 100%;
+        padding: 0;
+        height: 35vh;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalabsImage1__2vl6o {
+        margin-right: 8%;
+        width: 80%;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalbscarouselArrow__7zKEs {
+        margin-top: 5vw;
+        margin-right: 17%;
+        width: 19%;
+        float: right;
+        cursor: pointer;
+        display: flex;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalabsImage2Contents__3AJxF {
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1025px) {
+    .LifeAtFibonalabs_lifeAtFibonalabs__2kVw4 {
+        margin-top: 25vw;
+        margin-left: 12%;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalabsGroupImages__2747f {
+        display: none;
+    }
+    .LifeAtFibonalabs_mobImg1LifeAtfibonalabs__oQR69 {
+        width: 100%;
+        padding: 0;
+        height: 35vh;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalabsImage1__2vl6o {
+        margin-right: 8%;
+        width: 60%;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalbscarouselArrow__7zKEs {
+        margin-top: 1vw;
+        margin-right: 34%;
+        width: 17%;
+        float: right;
+        cursor: pointer;
+        display: flex;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalabsImage2Contents__3AJxF {
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .LifeAtFibonalabs_slideshow-container__1JR45 {
+        display: none;
+    }
+    .LifeAtFibonalabs_slideshow-containers__1KG3i {
+        max-width: 1000px;
+        position: relative;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalabsmlScrn__313FA,
+    .LifeAtFibonalabs_lifeAtFibonalbscarouselArrow__7zKEs {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .LifeAtFibonalabs_carouselArrows__1uqh6 {
+        margin-top: -4px;
+    }
+    .LifeAtFibonalabs_CaseStudy__1uGW2 {
+        margin: 0 8%;
+    }
+    .LifeAtFibonalabs_CaseStudySubHeading__19IWS {
+        margin: 0 9%;
+        font-size: calc(7px + 1vw);
+    }
+    .LifeAtFibonalabs_lifeAtFibonalbscarouselArrow-desktop__2mRLs {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .LifeAtFibonalabs_lifeAtFibonalabsHeading__UeWrj {
+        max-width: 1600px;
+    }
+    .LifeAtFibonalabs_lifeAtFibonalabs__2kVw4 {
+        margin: 10% 0 10% 12%;
+    }
+}
+
+.Casestudycard_caseStudyFirstCard__3VIVQ {
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+.Casestudycard_caseStudyImage__2HlXJ {
+    width: 93%;
+}
+
+.Casestudycard_caseStudyCardContent__jkhKL {
+    background-color: #f8f8f8;
+    width: 93%;
+    min-height: 250px;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.Casestudycard_casestudycardHeading__8zgBU {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: calc(4px + 1vw);
+    color: #313543;
+    margin-top: -0.5vh;
+    padding: 5% 5% 3% 4.5%;
+}
+
+.Casestudycard_typeOfCaseStudy__hJkMV {
+    background-color: #eef2f9;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 2px 14px;
+    margin-bottom: 5px;
+    color: #5b78b1;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 13px;
+    float: right;
+}
+
+.Casestudycard_caseStudySubContent__1kfRh {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    color: #313543;
+    margin-top: -0.5vh;
+    padding: 0 20% 2% 4.5%;
+    line-height: 1.5;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+}
+
+.Casestudycard_ViewMoreBox__fAkAE {
+    border: 2px solid #242424;
+    max-width: 100%;
+    text-align: end;
+    padding: 20px 5px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5% 2% 2% 4.5%;
+}
+
+.Casestudycard_casestydurightarrow__2LLBh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    width: 40px;
+}
+
+.Casestudycard_SquareBoxcard__1y0Nk {
+    border: 2px solid #108bff;
+    padding: 10px;
+    margin-top: calc(19px + -31px);
+    border-radius: 9px;
+}
+
+.Casestudycard_caseStudyRightArrow__3wm6v {
+    border-color: #7b7e87;
+}
+
+.Casestudycard_casecardrightArrow__gLebT {
+    max-width: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+}
+
+.Casestudycard_caseStudyViewMore__1JNYG {
+    color: #242424 !important;
+}
+
+.Casestudycard_ViewMoreBox-link__-1hX1 {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1025px) {
+    .Casestudycard_caseStudyFirstCard__3VIVQ {
+        width: 100%;
+    }
+    .Casestudycard_caseStudyImage__2HlXJ {
+        width: 100%;
+        margin: 0 !important;
+    }
+    .Casestudycard_caseStudyCardContent__jkhKL {
+        width: 100%;
+        padding: 0 8% !important;
+        margin-bottom: 5rem !important;
+    }
+    .Casestudycard_casestudycardHeading__8zgBU {
+        font-size: calc(10px + 1vw);
+        padding: 5% 2% 1%;
+    }
+    .Casestudycard_typeOfCaseStudy__hJkMV {
+        margin: 0 !important;
+    }
+    .Casestudycard_caseStudySubContent__1kfRh {
+        font-size: calc(8px + 1vw);
+        padding: 5% 15% 4% 2%;
+        line-height: 1.5;
+    }
+    .Casestudycard_caseStudyViewMore__1JNYG,
+    .Casestudycard_ourWorksWeb__38qbQ,
+    .Casestudycard_ViewMoreBox__fAkAE {
+        display: none;
+    }
+    .Casestudycard_ourWorks__2b5bt {
+        margin-top: -10rem;
+        bottom: 20px;
+        right: 20px;
+        margin-right: 8%;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Casestudycard_caseStudyCardContent__jkhKL {
+        height: 40vh !important;
+    }
+    .Casestudycard_caseStudySubContent__1kfRh {
+        padding: 8% 2% 6% !important;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    .Casestudycard_caseStudySubContent__1kfRh {
+        padding: 3vw 2vw 20vw !important;
+        line-height: 1.7 !important;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .Casestudycard_ourWorks__2b5bt {
+        display: none;
+    }
+    .Casestudycard_ourWorksContent__3xtBa {
+        display: flex;
+        font-family: Montserrat;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 1026px) {
+    .Casestudycard_caseStudyFirstCard__3VIVQ {
+        margin-bottom: 40px;
+    }
+}
+
+.Casestudy_caseStudy-width__3Bl2x,
+.Casestudy_cotainer-casestudy-home__1cRzx {
+    background-color: #faf5f0;
+}
+
+.Casestudy_caseStudygroupCardhome__3b2cG {
+    display: flex;
+    background-color: #faf5f0;
+    flex-wrap: wrap;
+    padding: 0 1% 0 6%;
+}
+
+.Casestudy_carouselArrow__3_akz {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: auto;
+    border: 2px solid #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Casestudy_carouselArrow__3_akz:hover {
+    background-color: #f4f4f4;
+}
+
+.Casestudy_rightArrow__3SnGA {
+    max-width: 25px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+}
+
+.Casestudy_serveHeading__YOdM5 {
+    font-size: calc(22px + 3vw);
+    font-weight: 600;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #313543;
+}
+
+.Casestudy_small-heading-casestudy__1cAIG {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.Casestudy_serveHeading__YOdM5 h1 {
+    font-size: calc(22px + 1.6vw);
+    line-height: 1.2;
+    padding: calc(0px + 2vw) calc(13px + 3vw) calc(13px + 2vw) calc(4px + 3vw);
+    margin-left: 4%;
+    background: transparent;
+    color: #000;
+    -webkit-text-fill-color: unset;
+}
+
+.Casestudy_case_heading__1-CUh h2 {
+    font-size: calc(22px + 1.6vw);
+    line-height: 1.2;
+    padding: 0 0 60px;
+}
+
+.Casestudy_caseStudyCard__3lnMJ {
+    padding: 12% 0 0;
+}
+
+.Casestudy_caseStudygroupCard__ckgTm {
+    display: flex;
+}
+
+.Casestudy_caseStudyFirstCard__17j0x,
+.Casestudy_caseStudySecondCard__19saA {
+    width: 50%;
+}
+
+.Casestudy_caseStudyImage__18t7u {
+    width: 93%;
+}
+
+.Casestudy_caseStudySecondImage__3WMXR {
+    float: right;
+}
+
+.Casestudy_caseStudyFirstCardContent__2D6ib,
+.Casestudy_caseStudySecondCardContent__1tivc {
+    background-color: #f9fbff;
+    width: 93%;
+    height: 50vh;
+}
+
+.Casestudy_caseStudySecondCardContent__1tivc {
+    float: right;
+}
+
+.Casestudy_casestudyHeading__2Xqe5 {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: calc(4px + 1vw);
+    color: #313543;
+    margin-top: -0.5vh;
+    width: 93%;
+    padding: 2vw 2vw 3vw;
+    height: 2.5vw;
+}
+
+.Casestudy_caseStudySubContent__2fB-R {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color: #313543;
+    margin-top: -0.5vh;
+    width: 93%;
+    padding: 0 2vw 0.5vw;
+    line-height: 1.5;
+    height: 12vh;
+}
+
+.Casestudy_caseStudyRightArrow__3f-47 {
+    border: 2px solid #7b7e87 !important;
+}
+
+.Casestudy_caseStudyViewMore__VnC2f {
+    color: #242424 !important;
+}
+
+.Casestudy_allCaseStudies__-luye {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6% 0 8%;
+}
+
+.Casestudy_CaseStudy__nBhdx {
+    font-size: calc(22px + 2.5vw);
+    font-family: poppins;
+    font-weight: 700;
+    padding-bottom: 2.5vw;
+}
+
+.Casestudy_CaseStudySubHeading__fpJ-n {
+    color: #313543;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: calc(4px + 1vw);
+}
+
+.Casestudy_caseStudycarouselArrow__2scMe {
+    display: flex;
+    width: 9%;
+    float: right;
+    cursor: pointer;
+    margin-top: 3vw;
+}
+
+.Casestudy_caseStudycarouselArrow__2scMe :focus {
+    background-color: transparent;
+}
+
+.Casestudy_carouselArrows__3uZwB:focus {
+    background-color: transparent !important;
+}
+
+.Casestudy_typeOfCaseStudy__A3G_U {
+    float: right;
+    background-color: #eef2f9;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 2px 2px 2px 5px;
+    margin-bottom: 5px;
+    color: #5b78b1;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.Casestudy_ourWorksWebrightArrowC__2xrWk {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Casestudy_serveHeading__YOdM5 {
+        width: 100vw;
+        padding: 0 20px;
+    }
+    .Casestudy_case_heading__1-CUh h2 {
+        font-size: calc(12px + 1.6vw);
+    }
+    .Casestudy_ourWorksWebrightArrowC__2xrWk {
+        width: 20px;
+    }
+    .Casestudy_SquareBox__llbYT {
+        border: 2px solid #108bff;
+        max-width: 49px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 9px;
+    }
+    .Casestudy_slideshow-container-one__YBili {
+        max-width: 1000px;
+        margin: auto;
+    }
+    .Casestudy_caseStudycarouselArrow__2scMe {
+        display: flex;
+        width: 42% !important;
+        float: right;
+        cursor: pointer;
+        margin-top: 3vw;
+        margin-right: 9%;
+    }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1300px) {
+    .Casestudy_SquareBox__llbYT {
+        border: 2px solid #108bff;
+        max-width: 260px;
+        text-align: end;
+        padding: 20px;
+        display: flex;
+        border-radius: 9px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .Casestudy_SquareBox__llbYT {
+        border-radius: 9px;
+        border: 2px solid #108bff;
+        max-width: 260px;
+        text-align: end;
+        padding: 20px;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Casestudy_casestudyHeading__2Xqe5 {
+        height: 6vh;
+    }
+}
+
+@media only screen and (min-width: 1026px) {
+    .Casestudy_ourWorks__b4yz7 {
+        display: none;
+    }
+    .Casestudy_ourWorksContent__P_3Wx {
+        color: #108bff;
+        display: flex;
+        font-family: Montserrat;
+        font-weight: 400;
+    }
+    .Casestudy_ourWorksWeb__2iZJj {
+        margin-top: 30px;
+        width: 29%;
+    }
+    .Casestudy_ourWorksWebrightArrow__1bJxm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        width: 40px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1025px) {
+    .Casestudy_caseStudygroupCardhome__3b2cG {
+        padding: 0;
+    }
+    .Casestudy_serveHeading__YOdM5 {
+        width: 100vw;
+        padding: 0 50px;
+    }
+    .Casestudy_slideshow-containers__3gI68 {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    .Casestudy_SquareBox__llbYT {
+        border: 2px solid #108bff;
+        max-width: -webkit-fit-content;
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+        padding: 18px;
+        margin-top: calc(19px + -31px);
+        border-radius: 9px;
+    }
+    .Casestudy_rightArrow__3SnGA {
+        padding: 4px !important;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .Casestudy_case_heading__1-CUh h2 {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .Casestudy_slideshow-container-one__YBili {
+        display: none;
+    }
+    .Casestudy_slideshow-containers__3gI68 {
+        max-width: 1000px;
+        position: relative;
+    }
+    .Casestudy_caseStudyMobileCarousel__2HeZn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .Casestudy_caseStudygroupCardhome__3b2cG {
+        padding: 0;
+    }
+    .Casestudy_carouselArrows__3uZwB {
+        margin-top: -4px;
+    }
+    .Casestudy_slideshow-container-one__YBili {
+        display: block;
+    }
+    .Casestudy_caseStudyWebCarousel__3M-yz {
+        display: none;
+    }
+    .Casestudy_CaseStudySlides__1IpkU .Casestudy_fade__3GSvT {
+        display: block;
+    }
+    .Casestudy_caseStudyFirstCard__17j0x {
+        display: block;
+        width: 100%;
+    }
+    .Casestudy_caseStudyImage__18t7u,
+    .Casestudy_caseStudySecondCard__19saA {
+        width: 100%;
+    }
+    .Casestudy_caseStudyFirstCardContent__2D6ib {
+        width: 100%;
+        padding: 0 8% !important;
+    }
+    .Casestudy_caseStudySecondCardContent__1tivc {
+        width: 100%;
+        padding: 0 8%;
+    }
+    .Casestudy_caseStudyViewMore__VnC2f {
+        display: none;
+    }
+    .Casestudy_caseStudyCard__3lnMJ {
+        padding: 12% 0 6%;
+    }
+    .Casestudy_CaseStudy__nBhdx {
+        margin: 0 8%;
+    }
+    .Casestudy_CaseStudySubHeading__fpJ-n {
+        margin: 0 9%;
+        font-size: calc(7px + 1vw);
+    }
+    .Casestudy_caseStudycarouselArrow__2scMe {
+        display: flex;
+        width: 21%;
+        float: right;
+        cursor: pointer;
+        margin-top: 3vw;
+        margin-right: 9%;
+    }
+    .Casestudy_caseStudygroupCard__ckgTm {
+        display: none;
+    }
+    .Casestudy_casestudyHeading__2Xqe5 {
+        font-size: calc(10px + 1vw);
+        padding: 6vw 2vw 10vw;
+    }
+    .Casestudy_caseStudySubContent__2fB-R {
+        font-size: calc(8px + 1vw);
+        padding: 1vw 2vw 0.5vw;
+    }
+    .Casestudy_allCaseStudies__-luye {
+        padding: 0 0 13%;
+    }
+    .Casestudy_ourWorks1__GENPj {
+        margin-top: 20px;
+        bottom: 20px;
+        right: 20px;
+        margin-right: 4%;
+        float: right;
+    }
+    .Casestudy_OurWorksArrow__JRIxp {
+        margin-top: -13px !important;
+        bottom: 20px !important;
+        right: 20px !important;
+        margin-right: 8% !important;
+        float: right !important;
+    }
+    .Casestudy_ourWorks__b4yz7 {
+        margin-top: -88px;
+        bottom: 20px;
+        right: 20px;
+        margin-right: 8%;
+        float: right;
+    }
+    .Casestudy_ourWorksWeb__2iZJj {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .Casestudy_caseStudy-width__3Bl2x {
+        margin: auto !important;
+        max-width: 1600px;
+    }
+    .Casestudy_caseStudyFirstCardContent__2D6ib,
+    .Casestudy_caseStudySecondCardContent__1tivc {
+        height: 30vh;
+    }
+    .Casestudy_caseStudySubContent__2fB-R {
+        height: 6vh;
+    }
+    .Casestudy_caseStudySecondCard__19saA {
+        width: 42% !important;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+    .Casestudy_ourWorksWeb__2iZJj {
+        margin-top: 50px;
+        width: 29%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .Casestudy_case-head-mobile__20h4O {
+        display: none;
+    }
+    .Casestudy_case-head-desktop__3hnZj {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Casestudy_case-head-desktop__3hnZj {
+        display: none;
+    }
+    .Casestudy_case-head-mobile__20h4O {
+        display: block;
+    }
+    .Casestudy_small-heading-casestudy__1cAIG {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+}
+
+.Newsletter_subscribeContainer__2qxOF {
+    margin: 8% 8% 16%;
+}
+
+.Newsletter_subscribeHeading__3XDyi {
+    color: #232d62;
+    font-size: calc(22px + 1.6vw);
+    margin: auto;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+.Newsletter_subscribeSubHeading__3JlIw {
+    font-size: 15px;
+    font-family: montserrat;
+    color: #a8a9b0;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.Newsletter_subscribeForm__2yg7E {
+    justify-content: center;
+    display: flex;
+    font-family: Poppins;
+    margin-top: 70px;
+}
+
+.Newsletter_subscribeInput__hToxP,
+.Newsletter_subscribenNameInput__2BOyI {
+    width: 240px;
+}
+
+.Newsletter_subscribeEmailInput__KSRQW,
+.Newsletter_subscribeInput__hToxP,
+.Newsletter_subscribenNameInput__2BOyI {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Poppins;
+    height: 45px;
+}
+
+.Newsletter_subscribeEmailInput__KSRQW {
+    width: 370px;
+}
+
+.Newsletter_subscribeBtn__1NioK {
+    padding: 10px 30px;
+    font-family: Poppins;
+    font-weight: 700;
+    height: 45px;
+    background-color: #4d66f0;
+    color: #fff;
+    margin: 23px 10px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Newsletter_subscribeForm__2yg7E form {
+    display: flex;
+}
+
+.Newsletter_newserrormsg__2aDHJ {
+    color: red;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.Newsletter_errorsubdiv__1PDWc {
+    height: 40px;
+    background-color: #ff3131;
+    width: 60%;
+    margin: 0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: fixed;
+    z-index: 110;
+    border-radius: 6px;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+}
+
+.Newsletter_subscribedvisible__3XP2I {
+    visibility: visible;
+    opacity: 1;
+}
+
+.Newsletter_newsinput__2AtiH {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Newsletter_news-lable__g8eeh {
+    font-size: 12px;
+}
+
+.Newsletter_news-errinput__t0NLI {
+    background-color: #fff0f0;
+}
+
+.Newsletter_star__or4az {
+    color: red;
+}
+
+@media only screen and (max-width: 1030px) {
+    .Newsletter_subscribeContainer__2qxOF {
+        margin-top: 250px;
+    }
+    .Newsletter_subscribeForm__2yg7E {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Newsletter_subscribeEmailInput__KSRQW,
+    .Newsletter_subscribeInput__hToxP,
+    .Newsletter_subscribenNameInput__2BOyI {
+        width: 100%;
+    }
+    .Newsletter_newsinput__2AtiH {
+        width: 80%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Newsletter_newsinput__2AtiH,
+    .Newsletter_subscribeEmailInput__KSRQW,
+    .Newsletter_subscribeInput__hToxP,
+    .Newsletter_subscribenNameInput__2BOyI {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .Newsletter_subscribeHeading__3XDyi {
+        font-size: calc(22px + 2.5vw);
+    }
+    .Newsletter_subscribeSubHeading__3JlIw {
+        font-size: 26px;
+    }
+    .Newsletter_subscribeInput__hToxP,
+    .Newsletter_subscribenNameInput__2BOyI {
+        width: 20vw;
+        height: 60px;
+    }
+    .Newsletter_subscribeEmailInput__KSRQW {
+        width: 30vw;
+        height: 60px;
+    }
+    .Newsletter_news-lable__g8eeh {
+        font-size: 20px;
+    }
+    .Newsletter_subscribeBtn__1NioK {
+        height: 60px;
+        margin-top: 36px;
+    }
+}
+
+.WhitePaper_whitepaperSection__1JS7Z {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WhitePaper_whitepaperContainer__np2i0 {
+    width: 100%;
+    height: 600px;
+    background-color: #ffd948;
+    display: flex;
+}
+
+.WhitePaper_whitepaperImg__1QyWD {
+    width: 45%;
+    height: 100%;
+    position: relative;
+}
+
+.WhitePaper_whitepaperContent__jZh4l {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.WhitePaper_whitepaperContentContainer__3NT56 {
+    padding: 50px;
+    text-align: center;
+    color: #1e232d;
+}
+
+.WhitePaper_whitepaperContentContainer__3NT56 h2 {
+    font-size: 30px;
+    margin: 20px 0;
+    font-family: Poppins, sans-serif;
+}
+
+.WhitePaper_whitepaperContentContainer__3NT56 p {
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 2;
+    font-family: Montserrat, sans-serif;
+}
+
+.WhitePaper_whitepaperContentContainer__3NT56 h6 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+
+.WhitePaper_whitepaperContentContainer__3NT56 h5 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+}
+
+.WhitePaper_whitepaperBtn__2uAmo {
+    padding: 15px 25px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #7549ab;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 1600px) {
+    .WhitePaper_whitepaperContainer__np2i0 {
+        width: 1600px;
+        height: 600px;
+        background-color: #ffd948;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .WhitePaper_whitepaperContainer__np2i0 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 1200px;
+    }
+    .WhitePaper_whitepaperImg__1QyWD {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .WhitePaper_whitepaperContent__jZh4l {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .WhitePaper_whitepaperContentContainer__3NT56 {
+        padding: 50px 20px;
+        text-align: center;
+        color: #1e232d;
+    }
+}
